@@ -36,17 +36,19 @@
      
           
               
-                  <ul class="nav navbar-nav">
+                  <ul class="nav navbar-nav onglets">
                       <li class="active"><a href="index.html">THIS IS MASSIVELY</a></li>
-                      <li><a href="#" >GENERIC PAGE</a></li>
-                      <li><a href="#" >ELEMENTS REFERENCE</a></li> 
+                      <li class="onglet_generic"><a href="index.html">GENERIC PAGE</a></li>
+                      <li class="onglet_elements"><a href="index.html">ELEMENTS REFERENCE</a></li> 
                   </ul>
 
               <!--icones navbar droite-->
 
               <ul class="nav navbar-nav pull-right">
-                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></span></a></li>
+                  <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
               </ul>   
     	
     	 
@@ -220,9 +222,7 @@
                   </div>
                 </section>
               </div>
-
-              <br>  
-
+              <br>
               <!--Default pagination-->
 
               <nav aria-label="Page navigation">
@@ -231,28 +231,27 @@
                    <a href="#" aria-label="Previous">
                      <span aria-hidden="true">&laquo;</span>
                    </a>
-                  </li>
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li>
+                 </li>
+                 <li><a href="#">1</a></li>
+                 <li><a href="#">2</a></li>
+                 <li><a href="#">3</a></li>
+                 <li><a href="#">4</a></li>
+                 <li><a href="#">5</a></li>
+                 <li>
                   <a href="#" aria-label="Next">
                     <span aria-hidden="true">&raquo;</span>
                   </a>
-                  </li>
-                </ul>
-              </nav>
+                </li>
+              </ul>
+            </nav>
+            <br>
 
-              <br>  
 
-
-              <!--formulaire de contact-->
+          <!--formulaire de contact-->
             <footer class="footer nopadding">
-             <div class="row" style="border-style: solid;border-width: 5px ; border-color: blue ">
+             <div class="row">
 
-                <div class="col-md-6 col-sm-12 nopadding" style="border-style: solid;border-width: 5px ; border-color: red ">
+                <div class="col-md-6 col-sm-12 nopadding">
                   <section class="post">
                     <form>
                       <div class="form-group "> <!--div pour name-->
@@ -265,7 +264,7 @@
                       </div>
                       <div class="form-group"> <!--div pour message-->
                         <label for="message"> MESSAGE </label>
-                        <input type="text" class="form-control" id="message">
+                        <textarea class="form-control" id="message" rows="6"></textarea>
                       </div>
                       <div class="actions-f">
                         <button type="submit" class="button action-button">SEND MESSAGE</button>
@@ -274,59 +273,58 @@
                 </section>
                 </div>
                 <!--coordonees-->
-                <div class="col-md-6 col-sm-12 " style="border-style: solid;border-width: 5px ; border-color: green ">
+                <div class="col-md-6 col-sm-12 nopadding">
                  
-                    <div class="row">
-                      <section class="footerigth">
-                        <div class="col-md-3">
-                          ADDRESS
-                        </div>
-                        <div class="col-md-9">
-                          <p>1234 Somewhere Road #87257<br>
-                            Nashville, TN 00000-0000</p>
-                        </div>
-                      </section>
+                  <section class="footerigth" class="row">
+                    <div class="col-md-3">
+                      ADDRESS
                     </div>
+                    <div class="col-md-9">
+                      <p>1234 Somewhere Road #87257<br>
+                        Nashville, TN 00000-0000</p>
+                    </div>
+                  </section>
+              
 
-                    <div class="row">
-                      <section class="footerigth">
-                        <div class="col-md-3">
-                          PHONE
-                        </div>
-                        <div class="col-md-9">
-                          <p><a href="#">(000) 000-0000</a></p>
-                        </div>
-                      </section>
+                
+                  <section class="footerigth" class="row">
+                    <div class="col-md-3">
+                      PHONE
                     </div>
+                    <div class="col-md-9">
+                      <p><a href="#">(000) 000-0000</a></p>
+                    </div>
+                  </section>
+                
 
-                    <div class="row">
-                      <section class="footerigth">
-                        <div class="col-md-3">
-                          EMAIL
-                        </div>
-                        <div class="col-md-9">
-                          <p><a href="#">info@untitled.tld</a></p>
-                        </div>
-                      </section>
+                
+                  <section class="footerigth" class="row">
+                    <div class="col-md-3">
+                      EMAIL
                     </div>
+                    <div class="col-md-9">
+                      <p><a href="#">info@untitled.tld</a></p>
+                    </div>
+                  </section>
+             
 
-                    <div class="row">
-                      <section class="footerigth">
-                        <div class="col-md-3">
-                          SOCIAL
-                        </div>
-                        <div class="col-md-9">
-                          <div class="social">
-                            <ul>    
-                              <li><a href="#"><i class="icon fa fa-twitter fa-2x"></i></a></li>
-                              <li><a href="#"><i class="icon fa fa-facebook fa-2x"></i></a></li>
-                              <li><a href="#"><i class="icon fa fa-instagram fa-2x"></i></a></li>
-                              <li><a href="#"><i class="icon fa fa-github fa-2x"></i></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </section>
+                
+                  <section class="footerigth" class="row">
+                    <div class="col-md-3">
+                      SOCIAL
                     </div>
+                    <div class="col-md-9">
+                      <div class="social">
+                        <ul>    
+                          <li><a href="#"><i class="icon fa fa-twitter fa-2x"></i></a></li>
+                          <li><a href="#"><i class="icon fa fa-facebook fa-2x"></i></a></li>
+                          <li><a href="#"><i class="icon fa fa-instagram fa-2x"></i></a></li>
+                          <li><a href="#"><i class="icon fa fa-github fa-2x"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                 
                   
                   </div>
              
@@ -336,7 +334,7 @@
         </div>
       </div> <!--ferme la div class=container  --> 
     <br><br>  
-    <!-- TODO a modifier --> 
+    <!--  a modifier --> 
     <p class="pHeader">© UNTITLEDDESIGN: HTML5 UPDEMO IMAGES: UNSPLASH</p>
     </body> 
     </html>

@@ -28,34 +28,37 @@
     </header>
   </div>
 
+ 
 
+   <!--Barre de navigation-->
+
+  <div class="navbar container">
+     
+          
+              
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="index.html">THIS IS MASSIVELY</a></li>
+                      <li><a href="#" >GENERIC PAGE</a></li>
+                      <li><a href="#" >ELEMENTS REFERENCE</a></li> 
+                  </ul>
+
+              <!--icones navbar droite-->
+
+              <ul class="nav navbar-nav pull-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>   
+    	
+    	 
+      
+   </div>
+      
 
   <!--Corps du site-->
 
-  <div class="container">
-    
-      <div class="col-lg-12">
-
-        <!--Barre de navigation-->
-
-        <nav class="navbar navigation">
-          <div class="container">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">THIS IS MASSIVELY</a></li>
-              <li><a href="#" >GENERIC PAGE</a></li>
-              <li><a href="#" >ELEMENTS REFERENCE</a></li> 
-            </ul>
-
-            <!--icones navbar droite-->
-
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>   
-
-          </div> 
-        </nav>
-
+  
+   
+     <div class="container fond_blanc">
 
         <!--Articles-->
 
@@ -68,6 +71,7 @@
                 <!--inserer date April 25,2017-->
                 <article class="article-main">
                   <header>
+                  <p><span class="Date pArticleMain">April 25, 2017</span></p>                                
                     <h2 class="h2ArticleMain text-center">
                       <a href="#">  <!--changer couleur quand la souris passe -->
                         And this is a<br>
@@ -75,8 +79,10 @@
                       </h2>
                       <p class="pArticleMain">Aenean ornare velit lacus varius enim ullamcorper proin aliquam <br> facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br> amet nullam sed etiam veroeros.</p>
                     </header>
-                    <div class="container-img-zoom" alt="">
-                      <img src="assets/images/pic01.jpg"/>
+                    <div class="box_image col-lg-12">
+                        <div class="container-img-zoom " alt="">
+                          <img src="assets/images/pic01.jpg"/>
+                        </div>
                     </div>
 
                     <div class="actions">
@@ -87,7 +93,7 @@
               </div> 
             </div>
           </div>
-        </div>
+        
 
         <!-- pour la section POST -->
 
@@ -215,8 +221,7 @@
                 </section>
               </div>
 
-
-
+              <br>  
 
               <!--Default pagination-->
 
@@ -226,80 +231,112 @@
                    <a href="#" aria-label="Previous">
                      <span aria-hidden="true">&laquo;</span>
                    </a>
-                 </li>
-                 <li><a href="#">1</a></li>
-                 <li><a href="#">2</a></li>
-                 <li><a href="#">3</a></li>
-                 <li><a href="#">4</a></li>
-                 <li><a href="#">5</a></li>
-                 <li>
+                  </li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
                   <a href="#" aria-label="Next">
                     <span aria-hidden="true">&raquo;</span>
                   </a>
-                </li>
-              </ul>
-            </nav>
+                  </li>
+                </ul>
+              </nav>
+
+              <br>  
 
 
+              <!--formulaire de contact-->
+            <footer class="footer nopadding">
+             <div class="row" style="border-style: solid;border-width: 5px ; border-color: blue ">
 
-            <!--formulaire de contact-->
-            <footer class="footer">
-
-             <div class="row">
-              <section>
-                <div class="col-md-6 col-sm-12 nopadding" >
-                  <form>
-                    <div class="form-group"> <!--div pour name-->
-                      <label for="name"> NAME </label>
-                      <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="form-group"> <!--div pour email-->
-                      <label for="email"> EMAIL </label>
-                      <input type="email" class="form-control" id="email">
-                    </div>
-                    <div class="form-group"> <!--div pour message-->
-                      <label for="message"> MESSAGE </label>
-                      <input type="text" class="form-control" id="message">
-                    </div>
-                    <div class="actions">
-                      <button type="submit" class="button action-button">SEND MESSAGE</button>
-                    </div>
+                <div class="col-md-6 col-sm-12 nopadding" style="border-style: solid;border-width: 5px ; border-color: red ">
+                  <section class="post">
+                    <form>
+                      <div class="form-group "> <!--div pour name-->
+                        <label for="name"> NAME </label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                      <div class="form-group"> <!--div pour email-->
+                        <label for="email"> EMAIL </label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                      <div class="form-group"> <!--div pour message-->
+                        <label for="message"> MESSAGE </label>
+                        <input type="text" class="form-control" id="message">
+                      </div>
+                      <div class="actions-f">
+                        <button type="submit" class="button action-button">SEND MESSAGE</button>
+                      </div>
                   </form>
-                </div>
-
-                <div class="col-md-6 col-sm-12 nopadding">
-                  <form class="posts">
-                    <section>
-                      Address
-                      <p>1234 Somewhere Road #87257<br>
-                        Nashville, TN 00000-0000</p>
-                      </section>
-                      <section>
-                        Phone
-                        <p><a href="#">(000) 000-0000</a></p>
-                      </section>
-                      <section>
-                        Email
-                        <p><a href="#">info@untitled.tld</a></p>
-                      </section>
-                      <section>
-                        Social
-                        <ul class="icons">
-                          <li><a href="#"><i class="icon fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="icon fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="icon fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="icon fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-                        </ul>
-                      </section>
-                    </form>
-                  </div>
-
                 </section>
+                </div>
+                <!--coordonees-->
+                <div class="col-md-6 col-sm-12 " style="border-style: solid;border-width: 5px ; border-color: green ">
+                 
+                    <div class="row">
+                      <section class="footerigth">
+                        <div class="col-md-3">
+                          ADDRESS
+                        </div>
+                        <div class="col-md-9">
+                          <p>1234 Somewhere Road #87257<br>
+                            Nashville, TN 00000-0000</p>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="row">
+                      <section class="footerigth">
+                        <div class="col-md-3">
+                          PHONE
+                        </div>
+                        <div class="col-md-9">
+                          <p><a href="#">(000) 000-0000</a></p>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="row">
+                      <section class="footerigth">
+                        <div class="col-md-3">
+                          EMAIL
+                        </div>
+                        <div class="col-md-9">
+                          <p><a href="#">info@untitled.tld</a></p>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="row">
+                      <section class="footerigth">
+                        <div class="col-md-3">
+                          SOCIAL
+                        </div>
+                        <div class="col-md-9">
+                          <div class="social">
+                            <ul>    
+                              <li><a href="#"><i class="icon fa fa-twitter fa-2x"></i></a></li>
+                              <li><a href="#"><i class="icon fa fa-facebook fa-2x"></i></a></li>
+                              <li><a href="#"><i class="icon fa fa-instagram fa-2x"></i></a></li>
+                              <li><a href="#"><i class="icon fa fa-github fa-2x"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  
+                  </div>
+             
               </div>
             </footer>
 
         </div>
-      </div> <!--ferme la div class=container ligne 35 --> 
-
+      </div> <!--ferme la div class=container  --> 
+    <br><br>  
+    <!-- TODO a modifier --> 
+    <p class="pHeader">© UNTITLEDDESIGN: HTML5 UPDEMO IMAGES: UNSPLASH</p>
     </body> 
     </html>
